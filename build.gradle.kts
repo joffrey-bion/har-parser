@@ -17,6 +17,11 @@ github {
     license = "MIT"
 }
 
+changelog {
+    githubUser = github.user
+    futureVersionTag = project.version.toString()
+}
+
 repositories {
     mavenCentral()
 }
