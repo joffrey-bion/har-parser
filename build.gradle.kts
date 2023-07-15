@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.0"
+    kotlin("multiplatform") version "1.9.0"
     kotlin("plugin.serialization") version "1.9.0"
     id("org.jetbrains.dokka") version "1.8.20"
     signing
@@ -21,10 +21,36 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
-    api("com.squareup.okio:okio:3.4.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+kotlin {
+    jvm()
+    js {
+        browser()
+        nodejs()
+    }
+    mingwX64()
+    linuxX64()
+    macosX64()
+    macosArm64()
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
+    watchosX64()
+    watchosArm32()
+    watchosArm64()
+    watchosSimulatorArm64()
+    tvosX64()
+    tvosArm64()
+    tvosSimulatorArm64()
+
+    sourceSets {
+        commonMain {
+            dependencies {
+                api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
+                api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+                api("com.squareup.okio:okio:3.4.0")
+            }
+        }
+    }
 }
 
 nexusPublishing {
