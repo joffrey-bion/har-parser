@@ -20,12 +20,16 @@ sealed class HarWebSocketMessage {
     /** The instant when the message was sent. */
     abstract val time: Instant
 
+    /** The opcode of the websocket frame (1 for a text frame, 2 for a binary frame). */
+    abstract val opcode: Int
+
     @Serializable
     data class Text(
         @SerialName("type")
         override val direction: WebSocketDirection,
         @Serializable(with = InstantAsDoubleSecondsSerializer::class)
         override val time: Instant,
+        override val opcode: Int,
         /** The text payload of this message (UTF-8 decoded). */
         val data: String,
     ) : HarWebSocketMessage()
@@ -36,6 +40,7 @@ sealed class HarWebSocketMessage {
         override val direction: WebSocketDirection,
         @Serializable(with = InstantAsDoubleSecondsSerializer::class)
         override val time: Instant,
+        override val opcode: Int,
         /** The binary payload of this message. */
         @Serializable(with = ByteStringAsBase64StringSerializer::class)
         val data: ByteString,
