@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
           java-version: 17
 
-      - name: Generate Change Log
+      - name: Generate change log
         uses: gradle/gradle-build-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,7 +47,7 @@ jobs:
             closeAndReleaseSonatypeStagingRepository
             -Pversion=${{ inputs.version }}
 
-      - name: Commit and Push Change Log
+      - name: Commit and push change log
         id: changelog-commit
         run: |
           git add CHANGELOG.md
@@ -55,7 +55,7 @@ jobs:
           git push
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
-      - name: Create Release and Tag
+      - name: Create release and tag
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ inputs.version }}
