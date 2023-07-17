@@ -21,7 +21,7 @@ jobs:
           java-version: 17
 
       # We don't just 'build' here because we want to test KDoc generation and publication mechanism too
-      - name: Test local publish before release
+      - name: Test local build and publish before release
         uses: gradle/gradle-build-action@v2
         env:
           # GPG keys for signing plugin (sign maven artifacts)
@@ -29,7 +29,7 @@ jobs:
           ORG_GRADLE_PROJECT_signingKey: ${{ secrets.GPG_SECRET_ASCII_ARMORED }}
           ORG_GRADLE_PROJECT_signingPassword: ${{ secrets.GPG_PASSWORD }}
         with:
-          arguments: publishToMavenLocal
+          arguments: build publishToMavenLocal
 
       - name: Generate Change Log
         uses: gradle/gradle-build-action@v2
