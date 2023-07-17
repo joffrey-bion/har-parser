@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.3.0](https://github.com/joffrey-bion/har-parser/tree/0.3.0) (2023-07-17)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/0.2.0...0.3.0)
+
+**Implemented enhancements:**
+
+- Provide a `Path.writeHar\(\)` extension [\#6](https://github.com/joffrey-bion/har-parser/issues/6)
+- Allow to use custom `Json` in `parseHar` [\#5](https://github.com/joffrey-bion/har-parser/issues/5)
+
 ## [0.2.0](https://github.com/joffrey-bion/har-parser/tree/0.2.0) (2023-07-16)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/0.1.0...0.2.0)
 
