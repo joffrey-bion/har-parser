@@ -1,5 +1,16 @@
 # Change Log
 
+## [0.4.0](https://github.com/joffrey-bion/har-parser/tree/0.4.0) (2023-07-19)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/0.3.0...0.4.0)
+
+**Implemented enhancements:**
+
+- Add params property to `PostData` [\#8](https://github.com/joffrey-bion/har-parser/issues/8)
+
+**Upgraded dependencies:**
+
+- Bump com.gradle.enterprise from 3.13.4 to 3.14 [\#7](https://github.com/joffrey-bion/har-parser/pull/7) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.3.0](https://github.com/joffrey-bion/har-parser/tree/0.3.0) (2023-07-17)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/0.2.0...0.3.0)
 
