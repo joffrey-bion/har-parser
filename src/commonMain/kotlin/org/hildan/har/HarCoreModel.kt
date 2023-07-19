@@ -103,19 +103,23 @@ data class HarRequest(
     val url: String,
     val httpVersion: String,
     val headers: List<Header>,
-    val queryString: List<QueryParam>,
+    val queryString: List<Param>,
     val cookies: List<Cookie>,
     val headersSize: Long,
     val bodySize: Long,
     val postData: PostData? = null,
 ) {
     @Serializable
-    data class QueryParam(val name: String, val value: String)
+    data class Param(val name: String, val value: String)
 
     @Serializable
     data class PostData(
         val mimeType: String,
         val text: String,
+        /**
+         * The decoded parameters if the mime type is `application/x-www-form-urlencoded`.
+         */
+        val params: List<Param>? = null,
     )
 }
 
