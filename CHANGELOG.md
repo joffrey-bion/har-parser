@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.5.0](https://github.com/joffrey-bion/har-parser/tree/0.5.0) (2023-07-19)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/0.4.0...0.5.0)
+
+**Implemented enhancements:**
+
+- Add multiplatform `Har.parse\(text\)`  function [\#9](https://github.com/joffrey-bion/har-parser/issues/9)
+
 ## [0.4.0](https://github.com/joffrey-bion/har-parser/tree/0.4.0) (2023-07-19)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/0.3.0...0.4.0)
 
