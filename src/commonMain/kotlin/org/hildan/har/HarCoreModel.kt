@@ -6,7 +6,18 @@ import kotlinx.serialization.json.*
 @Serializable
 data class Har(
     val log: HarLog,
-)
+) {
+    companion object {
+
+        /**
+         * Parses the given HAR content into a [Har] object, using the provided [json].
+         *
+         * A custom [Json] can be given, such as `Json { ignoreUnknownProperties = false }`, so that potential
+         * new or non-standard properties in the HAR file don't break the parsing.
+         */
+        fun parse(text: String, json: Json = Json): Har = json.decodeFromString(serializer(), text)
+    }
+}
 
 @Serializable
 data class HarLog(
