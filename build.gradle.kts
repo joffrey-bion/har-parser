@@ -52,7 +52,7 @@ kotlin {
             dependencies {
                 api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
                 api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
-                api("com.squareup.okio:okio:3.4.0")
+                api("com.squareup.okio:okio:3.5.0")
             }
         }
     }
