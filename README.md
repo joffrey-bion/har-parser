@@ -4,7 +4,7 @@
 [![Github Build](https://img.shields.io/github/actions/workflow/status/joffrey-bion/har-parser/build.yml?branch=main&logo=github)](https://github.com/joffrey-bion/har-parser/actions/workflows/build.yml)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/joffrey-bion/har-parser/blob/main/LICENSE)
 
-A Kotlin library to parse HAR (HTTP Archive) files
+A Kotlin multiplatform library to parse HAR (HTTP Archive) files, including support for the web socket traffic format.
 
 ## Setup
 
@@ -18,10 +18,24 @@ dependencies {
 
 ## Usage
 
-On the JVM, you can use `Path` extensions to parse a HAR file:
+### Parse HAR text
+
+You can get the data as text first, and then parse it using:
+
+```kotlin
+import org.hildan.har.*
+
+val harText = TODO("get some textual HAR-encoded data")
+val har = Har.parse(harText)
+```
+
+### Parse HAR files
+
+On the JVM, you can use the `Path.parseHar()` extensions to parse a HAR file:
 
 ```kotlin
 import kotlin.io.path.*
+import org.hildan.har.*
 
 val harPath = Path("./my-recording.har")
 val har = harPath.parseHar()
@@ -31,9 +45,4 @@ har.log.entries.forEach {
 }
 ```
 
-On other platforms, you can get the data as text first, and then parse it using:
-
-```kotlin
-val harText = TODO("get some textual HAR-encoded data")
-val har = Har.parse(harText)
-```
+You can also write a HAR file using `Path.writeHar(Har)`.
