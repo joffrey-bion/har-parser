@@ -1,5 +1,18 @@
 # Change Log
 
+## [0.6.0](https://github.com/joffrey-bion/har-parser/tree/0.6.0) (2023-08-23)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/0.5.0...0.6.0)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-serialization\-json from 1.5.1 to 1.6.0 [\#15](https://github.com/joffrey-bion/har-parser/pull/15) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump plugin.serialization from 1.9.0 to 1.9.10 [\#17](https://github.com/joffrey-bion/har-parser/pull/17) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump Kotlin from 1.9.0 to 1.9.10 [\#16](https://github.com/joffrey-bion/har-parser/pull/16) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump com.squareup.okio:okio from 3.4.0 to 3.5.0 [\#13](https://github.com/joffrey-bion/har-parser/pull/13) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump com.gradle.enterprise from 3.14 to 3.14.1 [\#12](https://github.com/joffrey-bion/har-parser/pull/12) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump org.hildan.kotlin\-publish from 1.1.1 to 1.2.0 [\#11](https://github.com/joffrey-bion/har-parser/pull/11) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump org.hildan.github.changelog from 1.13.1 to 2.0.0 [\#10](https://github.com/joffrey-bion/har-parser/pull/10) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.5.0](https://github.com/joffrey-bion/har-parser/tree/0.5.0) (2023-07-19)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/0.4.0...0.5.0)
 
