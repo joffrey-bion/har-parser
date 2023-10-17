@@ -2,7 +2,7 @@ plugins {
     val kotlin = "1.9.10"
     kotlin("multiplatform") version kotlin
     kotlin("plugin.serialization") version kotlin
-    id("org.jetbrains.dokka") version "1.9.0"
+    id("org.jetbrains.dokka") version "1.9.10"
     signing
     id("io.github.gradle-nexus.publish-plugin") version "1.3.0"
     id("org.hildan.github.changelog") version "2.0.0"
