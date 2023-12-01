@@ -1,5 +1,17 @@
 # Change Log
 
+## [1.0.0](https://github.com/joffrey-bion/har-parser/tree/1.0.0) (2023-12-01)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/0.6.0...1.0.0)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-serialization\-json from 1.6.0 to 1.6.2 [\#32](https://github.com/joffrey-bion/har-parser/pull/32) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump kotlin from 1.9.20 to 1.9.21 [\#29](https://github.com/joffrey-bion/har-parser/pull/29) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump kotlin from 1.9.10 to 1.9.20 [\#27](https://github.com/joffrey-bion/har-parser/pull/27) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump com.squareup.okio:okio from 3.5.0 to 3.6.0 [\#22](https://github.com/joffrey-bion/har-parser/pull/22) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump org.jetbrains.kotlinx:kotlinx\-datetime from 0.4.0 to 0.4.1 [\#19](https://github.com/joffrey-bion/har-parser/pull/19) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump org.jetbrains.dokka from 1.8.20 to 1.9.0 [\#18](https://github.com/joffrey-bion/har-parser/pull/18) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.6.0](https://github.com/joffrey-bion/har-parser/tree/0.6.0) (2023-08-23)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/0.5.0...0.6.0)
 
