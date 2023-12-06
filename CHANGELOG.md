@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.1.0](https://github.com/joffrey-bion/har-parser/tree/1.1.0) (2023-12-06)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/1.0.0...1.1.0)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-datetime from 0.4.1 to 0.5.0 [\#33](https://github.com/joffrey-bion/har-parser/pull/33) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.0](https://github.com/joffrey-bion/har-parser/tree/1.0.0) (2023-12-01)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/0.6.0...1.0.0)
 
