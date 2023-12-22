@@ -1,5 +1,5 @@
 plugins {
-    val kotlin = "1.9.21"
+    val kotlin = "1.9.22"
     kotlin("multiplatform") version kotlin
     kotlin("plugin.serialization") version kotlin
     id("org.jetbrains.dokka") version "1.9.10"
