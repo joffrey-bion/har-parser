@@ -1,12 +1,11 @@
 package org.hildan.har
 
 import kotlinx.datetime.*
+import kotlinx.io.bytestring.*
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
 import kotlinx.serialization.encoding.*
 import kotlinx.serialization.json.*
-import okio.*
-import okio.ByteString.Companion.toByteString
 import kotlin.io.encoding.*
 
 /**
@@ -81,13 +80,13 @@ private object ByteStringAsBase64StringSerializer : KSerializer<ByteString> {
     override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor("ByteString", PrimitiveKind.STRING)
 
     override fun serialize(encoder: Encoder, value: ByteString) {
-        val base64String = Base64.encode(value.toByteArray())
+        val base64String = Base64.encode(value)
         encoder.encodeString(base64String)
     }
 
     override fun deserialize(decoder: Decoder): ByteString {
         val base64String = decoder.decodeString()
-        return Base64.decode(base64String).toByteString()
+        return Base64.decodeToByteString(base64String)
     }
 }
 

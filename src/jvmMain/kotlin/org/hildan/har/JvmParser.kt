@@ -2,7 +2,6 @@ package org.hildan.har
 
 import kotlinx.serialization.*
 import kotlinx.serialization.json.*
-import okio.*
 import java.nio.file.Path
 import kotlin.io.path.*
 
