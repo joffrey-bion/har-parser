@@ -1,5 +1,16 @@
 # Change Log
 
+## [2.0.0](https://github.com/joffrey-bion/har-parser/tree/2.0.0) (2024-01-28)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/1.1.0...2.0.0)
+
+**Implemented enhancements:**
+
+- Migrate from Okio to kotlinx\-io [\#39](https://github.com/joffrey-bion/har-parser/issues/39)
+
+**Upgraded dependencies:**
+
+- Bump kotlin from 1.9.21 to 1.9.22 [\#37](https://github.com/joffrey-bion/har-parser/pull/37) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.1.0](https://github.com/joffrey-bion/har-parser/tree/1.1.0) (2023-12-06)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/1.0.0...1.1.0)
 
