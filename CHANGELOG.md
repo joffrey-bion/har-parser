@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.1](https://github.com/joffrey-bion/har-parser/tree/2.0.1) (2024-01-30)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/2.0.0...2.0.1)
+
+**Implemented enhancements:**
+
+- Ensure JVM toolchain 11 is used for better compatibility [\#40](https://github.com/joffrey-bion/har-parser/issues/40)
+
 ## [2.0.0](https://github.com/joffrey-bion/har-parser/tree/2.0.0) (2024-01-28)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/1.1.0...2.0.0)
 
