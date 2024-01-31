@@ -59,7 +59,7 @@ data class HarEntry(
     val resourceType: String,
     val cache: JsonObject,
     val connection: String? = null,
-    val pageref: String,
+    val pageref: String? = null,
     val request: HarRequest,
     val response: HarResponse,
     val serverIPAddress: String,
