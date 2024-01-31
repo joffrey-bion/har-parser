@@ -1,5 +1,16 @@
 # Change Log
 
+## [2.1.0](https://github.com/joffrey-bion/har-parser/tree/2.1.0) (2024-01-31)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/2.0.1...2.1.0)
+
+**Implemented enhancements:**
+
+- Add wasm target [\#43](https://github.com/joffrey-bion/har-parser/issues/43)
+
+**Fixed bugs:**
+
+- `HarEntry.pageref` should not be required \(sometimes missing in HAR files\) [\#42](https://github.com/joffrey-bion/har-parser/issues/42)
+
 ## [2.0.1](https://github.com/joffrey-bion/har-parser/tree/2.0.1) (2024-01-30)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/2.0.0...2.0.1)
 
