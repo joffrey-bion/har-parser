@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.targets.js.dsl.*
+
 plugins {
     val kotlin = "1.9.22"
     kotlin("multiplatform") version kotlin
@@ -27,6 +29,7 @@ repositories {
     mavenCentral()
 }
 
+@OptIn(ExperimentalWasmDsl::class)
 kotlin {
     jvmToolchain(11)
 
@@ -49,6 +52,11 @@ kotlin {
     tvosX64()
     tvosArm64()
     tvosSimulatorArm64()
+    wasmJs {
+        browser()
+        nodejs()
+        d8()
+    }
 
     sourceSets {
         commonMain {
