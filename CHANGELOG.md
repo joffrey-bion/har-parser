@@ -1,5 +1,13 @@
 # Change Log
 
+## [2.2.0](https://github.com/joffrey-bion/har-parser/tree/2.2.0) (2024-03-08)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/2.1.1...2.2.0)
+
+**Upgraded dependencies:**
+
+- Bump kotlin from 1.9.22 to 1.9.23 [\#52](https://github.com/joffrey-bion/har-parser/pull/52) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump org.jetbrains.kotlinx:kotlinx\-serialization\-json from 1.6.2 to 1.6.3 [\#49](https://github.com/joffrey-bion/har-parser/pull/49) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.1.1](https://github.com/joffrey-bion/har-parser/tree/2.1.1) (2024-02-03)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/2.1.0...2.1.1)
 
