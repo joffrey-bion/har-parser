@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.2.1](https://github.com/joffrey-bion/har-parser/tree/2.2.1) (2024-03-18)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/2.2.0...2.2.1)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-io\-bytestring from 0.3.1 to 0.3.2 [\#54](https://github.com/joffrey-bion/har-parser/pull/54) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.2.0](https://github.com/joffrey-bion/har-parser/tree/2.2.0) (2024-03-08)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/2.1.1...2.2.0)
 
