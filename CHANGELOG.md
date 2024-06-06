@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.5.0](https://github.com/joffrey-bion/har-parser/tree/2.5.0) (2024-06-06)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/2.4.0...2.5.0)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-io\-bytestring from 0.3.5 to 0.4.0 [\#69](https://github.com/joffrey-bion/har-parser/pull/69) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.4.0](https://github.com/joffrey-bion/har-parser/tree/2.4.0) (2024-05-25)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/2.3.0...2.4.0)
 
@@ -8,8 +15,6 @@
 - Bump kotlin from 1.9.24 to 2.0.0 [\#67](https://github.com/joffrey-bion/har-parser/pull/67) ([@dependabot[bot]](https://github.com/apps/dependabot))
 - Bump org.jetbrains.kotlinx:kotlinx\-io\-bytestring from 0.3.4 to 0.3.5 [\#65](https://github.com/joffrey-bion/har-parser/pull/65) ([@dependabot[bot]](https://github.com/apps/dependabot))
 - Bump org.jetbrains.kotlinx:kotlinx\-datetime from 0.5.0 to 0.6.0 [\#64](https://github.com/joffrey-bion/har-parser/pull/64) ([@dependabot[bot]](https://github.com/apps/dependabot))
-- Bump org.jetbrains.kotlinx:kotlinx\-io\-bytestring from 0.3.3 to 0.3.4 [\#63](https://github.com/joffrey-bion/har-parser/pull/63) ([@dependabot[bot]](https://github.com/apps/dependabot))
-- Bump kotlin from 1.9.23 to 1.9.24 [\#61](https://github.com/joffrey-bion/har-parser/pull/61) ([@dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.3.0](https://github.com/joffrey-bion/har-parser/tree/2.3.0) (2024-04-23)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/2.2.1...2.3.0)
