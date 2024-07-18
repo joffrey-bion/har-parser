@@ -66,6 +66,11 @@ kotlin {
                 api("org.jetbrains.kotlinx:kotlinx-io-bytestring:0.5.1")
             }
         }
+        commonTest {
+            dependencies {
+                implementation(kotlin("test"))
+            }
+        }
     }
 }
 
