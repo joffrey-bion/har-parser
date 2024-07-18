@@ -25,20 +25,20 @@ You can get the data as text first, and then parse it using:
 ```kotlin
 import org.hildan.har.*
 
-val harText = TODO("get some textual HAR-encoded data")
-val har = Har.parse(harText)
+val harText: String = TODO("get some textual HAR-encoded data")
+val har: Har = Har.parse(harText)
 ```
 
 ### Parse HAR files
 
-On the JVM, you can use the `Path.parseHar()` extensions to parse a HAR file:
+On the JVM, you can use the `Path.readHar()` extension to read a HAR file:
 
 ```kotlin
 import kotlin.io.path.*
 import org.hildan.har.*
 
 val harPath = Path("./my-recording.har")
-val har = harPath.parseHar()
+val har: Har = harPath.readHar()
 
 har.log.entries.forEach {
     println("${it.request.method} ${it.response.status} ${it.request.url}")
