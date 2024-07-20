@@ -1,5 +1,16 @@
 # Change Log
 
+## [3.0.0](https://github.com/joffrey-bion/har-parser/tree/3.0.0) (2024-07-20)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/2.6.1...3.0.0)
+
+**Breaking changes:**
+
+- Rename `Path.parseHar` to `Path.readHar` [\#75](https://github.com/joffrey-bion/har-parser/issues/75)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-io\-bytestring from 0.4.0 to 0.5.1 [\#74](https://github.com/joffrey-bion/har-parser/pull/74) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [2.6.1](https://github.com/joffrey-bion/har-parser/tree/2.6.1) (2024-06-30)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/2.6.0...2.6.1)
 
