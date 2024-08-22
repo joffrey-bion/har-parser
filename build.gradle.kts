@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.targets.js.dsl.*
 
 plugins {
-    val kotlin = "2.0.10"
+    val kotlin = "2.0.20"
     kotlin("multiplatform") version kotlin
     kotlin("plugin.serialization") version kotlin
     id("org.jetbrains.dokka") version "1.9.20"
