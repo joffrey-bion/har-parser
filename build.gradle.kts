@@ -1,4 +1,4 @@
-import org.jetbrains.kotlin.gradle.targets.js.dsl.*
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
     val kotlin = "2.0.20"
@@ -76,7 +76,7 @@ kotlin {
 
 nexusPublishing {
     packageGroup.set("org.hildan")
-    this.repositories {
+    repositories {
         sonatype()
     }
 }
