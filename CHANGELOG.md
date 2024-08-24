@@ -1,5 +1,12 @@
 # Change Log
 
+## [3.2.0](https://github.com/joffrey-bion/har-parser/tree/3.2.0) (2024-08-24)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/3.1.2...3.2.0)
+
+**Upgraded dependencies:**
+
+- Bump kotlin from 2.0.10 to 2.0.20 [\#84](https://github.com/joffrey-bion/har-parser/pull/84) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.1.2](https://github.com/joffrey-bion/har-parser/tree/3.1.2) (2024-08-24)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/3.1.1...3.1.2)
 
