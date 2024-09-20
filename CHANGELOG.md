@@ -1,5 +1,12 @@
 # Change Log
 
+## [3.2.3](https://github.com/joffrey-bion/har-parser/tree/3.2.3) (2024-09-20)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/3.2.2...3.2.3)
+
+**Upgraded dependencies:**
+
+- Bump org.jetbrains.kotlinx:kotlinx\-serialization\-json from 1.7.2 to 1.7.3 [\#91](https://github.com/joffrey-bion/har-parser/pull/91) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.2.2](https://github.com/joffrey-bion/har-parser/tree/3.2.2) (2024-09-18)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/3.2.1...3.2.2)
 
