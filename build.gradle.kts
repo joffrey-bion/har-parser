@@ -62,7 +62,7 @@ kotlin {
         commonMain {
             dependencies {
                 api("org.jetbrains.kotlinx:kotlinx-datetime:0.6.1")
-                api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+                api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
                 api("org.jetbrains.kotlinx:kotlinx-io-bytestring:0.6.0")
             }
         }
