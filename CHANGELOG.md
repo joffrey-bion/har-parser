@@ -1,5 +1,13 @@
 # Change Log
 
+## [3.7.0](https://github.com/joffrey-bion/har-parser/tree/3.7.0) (2025-03-20)
+[View commits](https://github.com/joffrey-bion/har-parser/compare/3.6.0...3.7.0)
+
+**Upgraded dependencies:**
+
+- Bump kotlin from 2.1.10 to 2.1.20 [\#110](https://github.com/joffrey-bion/har-parser/pull/110) ([@dependabot[bot]](https://github.com/apps/dependabot))
+- Bump org.jetbrains.kotlinx:kotlinx\-io\-bytestring from 0.6.0 to 0.7.0 [\#109](https://github.com/joffrey-bion/har-parser/pull/109) ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [3.6.0](https://github.com/joffrey-bion/har-parser/tree/3.6.0) (2025-02-11)
 [View commits](https://github.com/joffrey-bion/har-parser/compare/3.5.0...3.6.0)
 
