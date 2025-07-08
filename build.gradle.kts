@@ -33,6 +33,10 @@ repositories {
 kotlin {
     jvmToolchain(11)
 
+    compilerOptions {
+        freeCompilerArgs.add("-opt-in=kotlin.time.ExperimentalTime")
+    }
+
     jvm()
     js {
         browser()
@@ -61,7 +65,7 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                api("org.jetbrains.kotlinx:kotlinx-datetime:0.6.2")
+                api("org.jetbrains.kotlinx:kotlinx-datetime:0.7.1")
                 api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1")
                 api("org.jetbrains.kotlinx:kotlinx-io-bytestring:0.7.0")
             }
