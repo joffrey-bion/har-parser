@@ -1,12 +1,12 @@
 package org.hildan.har
 
-import kotlinx.datetime.*
 import kotlinx.io.bytestring.*
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
 import kotlinx.serialization.encoding.*
 import kotlinx.serialization.json.*
 import kotlin.io.encoding.*
+import kotlin.time.*
 
 /**
  * A web socket message record.
