@@ -5,10 +5,8 @@ plugins {
     kotlin("multiplatform") version kotlin
     kotlin("plugin.serialization") version kotlin
     id("org.jetbrains.dokka") version "2.0.0"
-    signing
-    id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
     id("org.hildan.github.changelog") version "2.2.0"
-    id("org.hildan.kotlin-publish") version "1.7.0"
+    id("com.vanniktech.maven.publish") version "0.33.0"
     id("ru.vyarus.github-info") version "2.0.0"
 }
 
@@ -78,33 +76,19 @@ kotlin {
     }
 }
 
-nexusPublishing {
-    packageGroup.set("org.hildan")
-    repositories {
-        sonatype()
-    }
-}
+mavenPublishing {
+    publishToMavenCentral()
+    signAllPublications()
 
-publishing {
-    // configureEach reacts on new publications being registered and configures them too
-    publications.configureEach {
-        if (this is MavenPublication) {
-            pom {
-                developers {
-                    developer {
-                        id.set("joffrey-bion")
-                        name.set("Joffrey Bion")
-                        email.set("joffrey.bion@gmail.com")
-                    }
-                }
+    pom {
+        name.set(project.name)
+        description.set(project.description)
+        developers {
+            developer {
+                id.set("joffrey-bion")
+                name.set("Joffrey Bion")
+                email.set("joffrey.bion@gmail.com")
             }
         }
     }
-}
-
-signing {
-    val signingKey: String? by project
-    val signingPassword: String? by project
-    useInMemoryPgpKeys(signingKey, signingPassword)
-    sign(extensions.getByType<PublishingExtension>().publications)
 }
